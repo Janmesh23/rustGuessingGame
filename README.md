@@ -28,12 +28,12 @@ To get the game up and running on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-    # Replace YOUR_USERNAME and YOUR_REPOSITORY_NAME with your actual GitHub details
+    git clone https://github.com/Janmesh23/rustGuessingGame.git
+ 
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd YOUR_REPOSITORY_NAME # or whatever you named the cloned directory (e.g., guessing_game)
+    cd rustGuessingGame # or whatever you named the cloned directory (e.g., guessing_game)
     ```
 
 ### Running the Application
