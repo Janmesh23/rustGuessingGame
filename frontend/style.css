@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: black;
+}
+
+#game-settings {
+    margin-bottom: 20px;
+}
+
+#game-settings label,
+#game-settings input {
+    margin: 0 5px;
+}
+
+#game-settings input {
+    padding: 5px;
+    width: 60px;
+}
+
+#game-settings button {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#game-area {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guess-input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.too_small {
+    color: red;
+}
+
+.too_big {
+    color: orange;
+}
+
+.correct {
+    color: green;
+}
+
+.lost_guesses,
+.lost_time {
+    color: grey;
+}
+
+#guess-history {
+    margin-top: 20px;
+}
+
+#guess-list {
+    list-style-type: none;
+    padding: 0;
+}

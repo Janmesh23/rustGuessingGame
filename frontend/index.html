@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <canvas id="background"></canvas>
+    <h1>Guessing Game</h1>
+    <div id="game-settings">
+        <label for="max-guesses-input">Max Guesses:</label>
+        <input type="number" id="max-guesses-input" value="10" min="1">
+        <label for="time-limit-input">Time Limit (seconds):</label>
+        <input type="number" id="time-limit-input" value="60" min="1">
+        <button id="start-game-btn">Start New Game</button>
+    </div>
+    <div id="game-area">
+        <input type="number" id="guess-input" placeholder="Enter your guess">
+        <button id="guess-btn">Guess</button>
+        <p id="message"></p>
+        <p>Guesses Remaining: <span id="guesses-remaining">0</span></p>
+        <p>Time Remaining: <span id="time-remaining">00:00</span></p>
+        <div id="guess-history">
+            <h2>Guess History</h2>
+            <ul id="guess-list"></ul>
+        </div>
+    </div>
+    <script src="background.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
